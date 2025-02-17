@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: black;
+    display: flex;
+    padding: 15px 10px;
+    align-items: center;
+justify-content: space-around;
+border-bottom: 2px solid white;
+}
+
+.ispavi1, 
+.bnt {
+    justify-content: space-around;
+}
+
+.ispavi1 {
+    position: relative;
+        color: white;
+font-size: 50px;
+left: -170px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.planetpng {
+width: 40px;
+height: 40px;
+transform: rotate(10deg); 
+position: relative;
+left: -472px;
+transition: transform 0.5s ease-in-out; /* Suaviza a rotação */
+
+}
+
+.planetpng:hover {
+    transform: rotate(360deg); /* Faz a imagem girar completamente */
+}
+
+.bnt {
+position:relative;
+left: 150px;
+background-color: white;
+padding: 10px 30px;
+font-size: 20px;
+border-radius: 100px;
+font-family: "Noto Sans Mono", serif;
+;
+}
+
+.bnt:hover {
+    position:relative;
+left: 150px;
+background-color: black;
+color: white;
+padding: 10px 30px;
+font-size: 20px;
+border-color: white;
+border: 2px solid;
+border-radius: 100px;
+}
+
+.divsobre {
+    display: flex;
+    align-items: center;
+background-image: url(nebula1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding-bottom: 20px;
+}
+
+.nebulaicon {
+    border-radius: 100%;
+width: 250px;
+padding: 70px 150px;
+}
+
+.textsobre {
+    position: relative;
+    width: 833px;
+    left: -80px; 
+    font-size: 17px;
+    color: white;
+}
+
+.ispavitext {
+    font-size: 80px; 
+    position: relative;
+    left: -120px; 
+    top: -25px;
+    border-bottom: 2px solid white;
+width: 300px;
+color: white;
+}
+
+.pesquisa-img{
+    width: 90px;
+    padding-right: 20px;
+
+}
+
+.container-programas1 {
+    display: flex;
+    align-items: center;
+    background-color: #FFF154;
+    padding: 15px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.cursos-img {
+    width: 90px;
+    padding-right: 20px;
+}
+
+.h1cursos{
+    border-bottom: 2px solid;
+    width:  200px;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+.pcursos {
+    padding-top: 10px;
+}
+
+.container-programas1:hover{
+display: flex;
+    align-items: center;
+    background-color: #f7e30f;
+    padding: 15px;
+    width: 500px;
+    border-radius: 20px;
+    border: solid 1px rgb(128, 128, 6);
+color:rgb(128, 120, 13);
+-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #202020;
+}
+
+.container-programas2 {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    background-color: #545CFF;
+    padding: 15px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.server-img {
+    width: 90px;
+    padding-right: 20px;
+
+}
+
+.h1server{
+    border-bottom: 2px solid;
+    width:  200px;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+.pserver {
+    padding-top: 10px;
+}
+
+.container-programas2:hover{
+    display: flex;
+        align-items: center;
+        background-color: #3c2cd4;
+        padding: 15px;
+        width: 500px;
+        border-radius: 20px;
+        border: solid 1px rgb(39, 6, 128);
+    color:rgb(38, 13, 128);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #202020;
+    }
+
+.container-programas3 {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    background-color: #FF5457;
+    padding: 15px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.conheca-img{
+    width: 90px;
+    padding-right: 20px;
+
+}
+
+.h1conheca{
+    border-bottom: 2px solid;
+    width:  300px;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+.pconheca {
+    padding-top: 10px;
+}
+
+.container-programas3:hover{
+    display: flex;
+        align-items: center;
+        background-color: #f70f49;
+        padding: 15px;
+        width: 500px;
+        border-radius: 20px;
+        border: solid 1px rgb(128, 6, 16);
+    color:rgb(128, 13, 28);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #202020;
+    }
+
+.container-programas4 {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    background-color: #54FF6E;
+    padding: 15px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.pesquisa-img{
+    width: 90px;
+    padding-right: 20px;
+
+}
+
+.h1pesquisa{
+    border-bottom: 2px solid;
+    width:  200px;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+.container-programas4:hover{
+    display: flex;
+        align-items: center;
+        background-color: #0ff777;
+        padding: 15px;
+        width: 500px;
+        border-radius: 20px;
+        border: solid 1px rgb(6, 128, 47);
+    color:rgb(13, 128, 51);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #202020;
+    }
+
+.ppesquisa {
+    padding-top: 10px;
+}
+
+.todos-os-programas {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); /* Garante 2 colunas */
+    gap: 20px; /* Espaçamento entre os itens */
+    width: fit-content; /* Ajusta o tamanho conforme o conteúdo */
+    margin: 0 auto; /* Centraliza no meio da tela */
+}
+
+.todos-os-programas div {
+    he: 200px; /* Define um tamanho fixo */
+}
+
+img {
+    width: 100px; /* Ajuste o tamanho das imagens */
+    height: auto;
+}
+
+.nossosprogramas {
+    padding: 20px;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+padding: 10px;
+margin-top: 50px;
+}
+
+.ispavi2{
+    position: relative;
+    color: white;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.planetpng2 {
+    width: 40px;
+    height: 40px;
+    transform: rotate(10deg); 
+    position: relative;
+    transition: transform 0.5s ease-in-out; /* Suaviza a rotação */
+}
+
+.planetpng2:hover {
+    transform: rotate(360deg); /* Faz a imagem girar completamente */
+}
+
+
+.iconrs1{
+    width:30px;
+    height: 30px;
+    padding-left:15px;
+    position: relative;
+left: 900px;
+
+}
+
+#discord{
+    transition: transform 0.5s ease-in-out; /* Suaviza a rotação */
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+} 
+
+#discord:hover {
+    -webkit-transform:scale(1);
+    transform:scale(1);
+}
+
+#youtube{
+    transition: transform 0.5s ease-in-out; /* Suaviza a rotação */
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+} 
+
+#youtube:hover {
+    -webkit-transform:scale(1);
+    transform:scale(1);
+}
+
+#tiktok{
+    transition: transform 0.5s ease-in-out; /* Suaviza a rotação */
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+} 
+
+#tiktok:hover {
+    -webkit-transform:scale(1);
+    transform:scale(1);
+}
+
+#instagram {
+    transition: transform 0.5s ease-in-out; /* Suaviza a rotação */
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+} 
+
+#instagram:hover {
+    -webkit-transform:scale(1);
+    transform:scale(1);
+}
+
+p{
+    font-family: "Courier Prime", serif;
+
+}
